@@ -19,7 +19,7 @@
 <Server port='-1'>
 
     <Service name='Catalina'>
-        <Connector port='${http.port}' bindOnInit="false" connectionTimeout="20000"/>
+        <Connector port='${http.port}' bindOnInit="false" connectionTimeout="20000" redirectPort="443"/>
 
         <Engine defaultHost='localhost' name='Catalina'>
         	<Realm className="org.apache.catalina.realm.MemoryRealm" />
