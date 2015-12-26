@@ -23,7 +23,7 @@
         	port='${http.port}' bindOnInit="false" connectionTimeout="20000"
         	compression="on" compressionMinSize="48" noCompressionUserAgents="gozilla, traviata"
 			compressableMimeType="text/html,text/xml,text/json,text/javascript,text/css,text/plain,
-			application/javascript,application/xml,application/xml+xhtml"
+			application/javascript,application/xml,application/xml+xhtml" useSendfile="false"
 		/>
 
         <Engine defaultHost='localhost' name='Catalina'>
