@@ -21,7 +21,7 @@
     <Service name='Catalina'>
         <Connector 
         	port='${http.port}' bindOnInit="false" connectionTimeout="20000"
-        	compression="on" compressionMinSize="2048" noCompressionUserAgents="gozilla, traviata"
+        	compression="on" compressionMinSize="48" noCompressionUserAgents="gozilla, traviata"
 			compressableMimeType="text/html,text/xml,text/json,text/javascript,text/css,text/plain,
 			application/javascript,application/xml,application/xml+xhtml"
 		/>
